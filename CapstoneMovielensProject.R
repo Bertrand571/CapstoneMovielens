@@ -74,15 +74,15 @@ rm(dl, ratings, movies, test_index, temp, movielens, removed)
 # in case something goes wrong and we need to come back to it.
 
 # Backup to files
-saveRDS(edx,"edx.Rda")
-saveRDS(validation,"validation.Rda")
+# saveRDS(edx,"edx.Rda")
+# saveRDS(validation,"validation.Rda")
 
 # Delete objects
-rm(edx,validation)
+# rm(edx,validation)
 
 #reload saved datasets
-edx <- readRDS(file="edx.Rda")
-validation <- readRDS(file="validation.Rda")
+# edx <- readRDS(file="edx.Rda")
+# validation <- readRDS(file="validation.Rda")
 
 
 
